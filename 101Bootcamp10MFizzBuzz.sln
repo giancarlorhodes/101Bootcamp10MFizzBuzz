@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppCore", "ConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryStandard", "ClassLibraryStandard\ClassLibraryStandard.csproj", "{05E455CE-8E9A-48A3-A182-89F615BDE99F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFizzBuzz", "UnitTestFizzBuzz\UnitTestFizzBuzz.csproj", "{2FF8A01F-2C8C-4EE3-B355-E3422567E4F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{05E455CE-8E9A-48A3-A182-89F615BDE99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E455CE-8E9A-48A3-A182-89F615BDE99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05E455CE-8E9A-48A3-A182-89F615BDE99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF8A01F-2C8C-4EE3-B355-E3422567E4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF8A01F-2C8C-4EE3-B355-E3422567E4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF8A01F-2C8C-4EE3-B355-E3422567E4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF8A01F-2C8C-4EE3-B355-E3422567E4F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
