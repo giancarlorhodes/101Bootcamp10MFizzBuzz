@@ -8,7 +8,6 @@ namespace UnitTestFizzBuzz
     {
         FizzBuzzPrint _print;
 
-
         public UnitTestFizzBuzzPrint() 
         {
             _print = new FizzBuzzPrint();             

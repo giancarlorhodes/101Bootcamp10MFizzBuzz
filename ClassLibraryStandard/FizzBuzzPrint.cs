@@ -2,10 +2,10 @@
 
 namespace ClassLibraryStandard
 {
-    public class FizzBuzzPrint
+    public class FizzBuzzPrint 
     {
 
-        public string Check(int inNumber) 
+        public string Check(int inNumber)
         {
             if (this.FizzBuzz(inNumber))
             {
@@ -22,11 +22,9 @@ namespace ClassLibraryStandard
             else return "Nothing";
         }
 
-
-
-        private bool Fizz(int inNumber) 
+        private bool Fizz(int inNumber)
         {
-            return inNumber % 3 == 0 ? true : false;        
+            return inNumber % 3 == 0 ? true : false;
         }
 
         private bool Buzz(int inNumber)
