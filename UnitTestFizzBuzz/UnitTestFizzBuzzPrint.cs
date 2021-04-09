@@ -57,7 +57,5 @@ namespace UnitTestFizzBuzz
             Assert.IsFalse(_value == "Fizz" || _value == "Buzz");
             Assert.IsTrue(_value == "Nothing");
         }
-
-
     }
 }
