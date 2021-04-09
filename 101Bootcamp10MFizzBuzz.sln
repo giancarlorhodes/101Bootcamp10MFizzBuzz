@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppCore", "ConsoleAppCore\ConsoleAppCore.csproj", "{3FA00CC4-2E75-4491-894C-1B3DC8882EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryStandard", "ClassLibraryStandard\ClassLibraryStandard.csproj", "{05E455CE-8E9A-48A3-A182-89F615BDE99F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryStandard", "ClassLibraryStandard\ClassLibraryStandard.csproj", "{05E455CE-8E9A-48A3-A182-89F615BDE99F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFizzBuzz", "UnitTestFizzBuzz\UnitTestFizzBuzz.csproj", "{2FF8A01F-2C8C-4EE3-B355-E3422567E4F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestFizzBuzz", "UnitTestFizzBuzz\UnitTestFizzBuzz.csproj", "{2FF8A01F-2C8C-4EE3-B355-E3422567E4F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

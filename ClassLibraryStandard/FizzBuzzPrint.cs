@@ -24,7 +24,15 @@ namespace ClassLibraryStandard
 
         private bool Fizz(int inNumber)
         {
-            return inNumber % 3 == 0 ? true : false;
+            //return inNumber % 3 == 0 ? true : false;
+            if (inNumber % 3 == 0)
+            {
+                return true;
+            }
+            else {
+
+                return false;
+            }        
         }
 
         private bool Buzz(int inNumber)
