@@ -57,5 +57,20 @@ namespace UnitTestFizzBuzz
             Assert.IsFalse(_value == "Fizz" || _value == "Buzz");
             Assert.IsTrue(_value == "Nothing");
         }
+
+
+        // divides by 5 perfectly
+        [TestMethod]
+        public void OneThousandAndOne_Is_False()
+        {
+            // arrange
+            string _value;
+
+            // act
+            _value = _print.Check(1001);
+
+            // assert
+            Assert.IsTrue(_value != "Fizz" || _value != "Buzz" || _value != "FizzBuzz");
+        }
     }
 }
