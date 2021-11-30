@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibraryStandard\ClassLibraryStandard.csproj" />
+    <ProjectReference Include="..\ConsoleAppCore\ConsoleAppCore.csproj" />
   </ItemGroup>
 
 </Project>
