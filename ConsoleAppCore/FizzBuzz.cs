@@ -21,7 +21,7 @@ namespace ConsoleAppCore
 
         }
 
-        internal bool DivideByFive(int number)
+        public bool DivideByFive(int number)
         {
             if (number % 5 == 0)
             {
@@ -33,7 +33,7 @@ namespace ConsoleAppCore
             }
         }
 
-        internal bool DivideByThreeAndFive(int number)
+        public bool DivideByThreeAndFive(int number)
         {
             if (number % 3 == 0 && number % 5 == 0)
             {
